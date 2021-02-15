@@ -3,7 +3,11 @@ name = "rusted-cube"
 version = "0.1.0"
 authors = ["Jacob Sansbury <sansburyjacob@gmail.com>"]
 edition = "2018"
+cgmath = {version= "0.17", features=["mint"]}
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ggez = "^0.5.1"
+glam = { version = "0.8.6", features = ["mint"] }
+rand = "0.8"
